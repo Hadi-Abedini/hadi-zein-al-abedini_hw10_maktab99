@@ -1,0 +1,114 @@
+.main-bg {
+  background-color: #B1D9DB;
+}
+
+.content-bg {
+  background-color: #F5F5F5;
+}
+
+.text-shadow {
+  font-family: Poppins;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.logo-shadow {
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+aside {
+  width: fit-content;
+  left: 32px;
+  top: 6rem;
+}
+
+.main-img {
+  width: 600px;
+}
+
+.content-w {
+  width: 59.8958%;
+  border-radius: 60px 0px 0px 60px;
+}
+
+.main-w{
+  width: 60%;
+}
+
+.content-title {
+  font-family: Poppins;
+  font-size: 35px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: 2px;
+}
+
+.eyepassword {
+  width: 50px;
+}
+
+::placeholder,
+.login {
+  color: rgba(99, 92, 92, 0.60);
+  font-family: Poppins;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 500;
+}
+
+.green-login {
+  color: #7CD2D7;
+}
+
+button {
+  font-family: Poppins;
+  border-radius: 10px;
+  background: #5EC5C8;
+  height: 55px;
+  font-size: 20px;
+}
+
+.box {
+  border-radius: 9px;
+  background: #ECE9EC;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  font-size: 10px;
+  white-space: nowrap;
+}
+.box img {
+  width: 20px;
+}
+
+@media(max-width: 992px) {
+  .content-w {
+    width: 94%;
+  }
+
+  .eyepassword {
+    width: 18px;
+  }
+
+  ::placeholder,
+  .login {
+    font-size: 12px;
+  }
+  .box {
+    width: fit-content;
+    border-radius: 100px;
+  }
+  .content-title {
+    font-size: 30px;
+  }
+  .main-w{
+    width: 90%;
+  }
+}
+
+@media(max-width: 1255px) {
+  .text-shadow {
+    font-size: 15px;
+  }
+}
